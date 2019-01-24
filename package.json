@@ -1,7 +1,6 @@
 {
   "name": "lib-template",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "dependencies": {},
   "scripts": {
@@ -23,5 +22,6 @@
     "commitizen": {
       "path": "node_modules/cz-customizable"
     }
-  }
+  },
+  "main": "dist/myLib.js"
 }
