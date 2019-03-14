@@ -6,3 +6,8 @@
 
 - yarn build 打包库
 - 修改 package.json 的 main 字段为你打包后的文件
+
+# 提交
+
+- git add .
+- 
