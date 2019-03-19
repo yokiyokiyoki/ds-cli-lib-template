@@ -1,9 +1,12 @@
 module.exports={
-    "lint": {
-        "type": "confirm",
-        "message": "是否用tslint"
+    prompts:{
+        "lint": {
+            "type": "confirm",
+            "message": "是否用tslint"
+        },
     },
-    "filters": {
+    
+    filters: {
         "tslint.json": "lint",
         "tsconfig.json": "lint"
     }
